@@ -37,13 +37,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\build\cefsimple\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\build\cefsimple\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cefsimple.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cefsimple</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\build\cefsimple\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\build\cefsimple\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cefsimple.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cefsimple</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
@@ -73,10 +73,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0602;_WIN32_WINNT=0x602;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -86,7 +86,7 @@
     <PostBuildEvent>
       <Message>Adding manifest...															</Message>
       <Command>setlocal
-mt.exe -nologo -manifest "E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/cefsimple/cefsimple.exe.manifest" "E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/cefsimple/compatibility.manifest" -outputresource:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/cefsimple.exe";#1
+mt.exe -nologo -manifest "../../cefsimple/cefsimple.exe.manifest" "../../cefsimple/compatibility.manifest" -outputresource:"../../build/cefsimple/Debug/cefsimple.exe";#1
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -95,7 +95,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Debug/d3dcompiler_43.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/d3dcompiler_43.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Debug/d3dcompiler_43.dll ../../build/cefsimple/Debug/d3dcompiler_43.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -104,7 +104,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Debug/d3dcompiler_47.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/d3dcompiler_47.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Debug/d3dcompiler_47.dll ../../build/cefsimple/Debug/d3dcompiler_47.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,7 +113,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Debug/libcef.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/libcef.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Debug/libcef.dll ../../build/cefsimple/Debug/libcef.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -122,7 +122,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Debug/libEGL.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/libEGL.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Debug/libEGL.dll ../../build/cefsimple/Debug/libEGL.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,7 +131,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Debug/libGLESv2.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/libGLESv2.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Debug/libGLESv2.dll ../../build/cefsimple/Debug/libGLESv2.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -140,7 +140,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Debug/natives_blob.bin E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/natives_blob.bin
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Debug/natives_blob.bin ../../build/cefsimple/Debug/natives_blob.bin
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,7 +149,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Debug/snapshot_blob.bin E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/snapshot_blob.bin
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Debug/snapshot_blob.bin ../../build/cefsimple/Debug/snapshot_blob.bin
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -158,7 +158,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Debug/wow_helper.exe E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/wow_helper.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Debug/wow_helper.exe ../../build/cefsimple/Debug/wow_helper.exe
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -167,7 +167,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/cef.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/cef.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/cef.pak ../../build/cefsimple/Debug/cef.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -176,7 +176,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/cef_100_percent.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/cef_100_percent.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/cef_100_percent.pak ../../build/cefsimple/Debug/cef_100_percent.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,7 +185,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/cef_200_percent.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/cef_200_percent.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/cef_200_percent.pak ../../build/cefsimple/Debug/cef_200_percent.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -194,7 +194,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/cef_extensions.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/cef_extensions.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/cef_extensions.pak ../../build/cefsimple/Debug/cef_extensions.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -203,7 +203,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/devtools_resources.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/devtools_resources.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/devtools_resources.pak ../../build/cefsimple/Debug/devtools_resources.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -212,7 +212,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/icudtl.dat E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/icudtl.dat
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/icudtl.dat ../../build/cefsimple/Debug/icudtl.dat
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,7 +221,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/locales E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/locales
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory ../../Resources/locales ../../build/cefsimple/Debug/locales
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,20 +236,20 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/cefsimple.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Debug/cefsimple.pdb</ProgramDataBaseFile>
+      <ImportLibrary>../../build/cefsimple/Debug/cefsimple.lib</ImportLibrary>
+      <ProgramDataBaseFile>../../build/cefsimple/Debug/cefsimple.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <Manifest>
-      <AdditionalManifestFiles>E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\cefsimple.exe.manifest;</AdditionalManifestFiles>
+      <AdditionalManifestFiles>..\cefsimple\cefsimple.exe.manifest;</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -270,10 +270,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0602;_WIN32_WINNT=0x602;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -283,7 +283,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>Adding manifest...															</Message>
       <Command>setlocal
-mt.exe -nologo -manifest "E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/cefsimple/cefsimple.exe.manifest" "E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/cefsimple/compatibility.manifest" -outputresource:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/cefsimple.exe";#1
+mt.exe -nologo -manifest "../../cefsimple/cefsimple.exe.manifest" "../../cefsimple/compatibility.manifest" -outputresource:"../../build/cefsimple/Release/cefsimple.exe";#1
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -292,7 +292,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Release/d3dcompiler_43.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/d3dcompiler_43.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Release/d3dcompiler_43.dll ../../build/cefsimple/Release/d3dcompiler_43.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -301,7 +301,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Release/d3dcompiler_47.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/d3dcompiler_47.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Release/d3dcompiler_47.dll ../../build/cefsimple/Release/d3dcompiler_47.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -310,7 +310,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Release/libcef.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/libcef.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Release/libcef.dll ../../build/cefsimple/Release/libcef.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -319,7 +319,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Release/libEGL.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/libEGL.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Release/libEGL.dll ../../build/cefsimple/Release/libEGL.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -328,7 +328,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Release/libGLESv2.dll E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/libGLESv2.dll
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Release/libGLESv2.dll ../../build/cefsimple/Release/libGLESv2.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -337,7 +337,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Release/natives_blob.bin E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/natives_blob.bin
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Release/natives_blob.bin ../../build/cefsimple/Release/natives_blob.bin
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -346,7 +346,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Release/snapshot_blob.bin E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/snapshot_blob.bin
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Release/snapshot_blob.bin ../../build/cefsimple/Release/snapshot_blob.bin
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -355,7 +355,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Release/wow_helper.exe E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/wow_helper.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Release/wow_helper.exe ../../build/cefsimple/Release/wow_helper.exe
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -364,7 +364,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/cef.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/cef.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/cef.pak ../../build/cefsimple/Release/cef.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -373,7 +373,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/cef_100_percent.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/cef_100_percent.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/cef_100_percent.pak ../../build/cefsimple/Release/cef_100_percent.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -382,7 +382,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/cef_200_percent.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/cef_200_percent.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/cef_200_percent.pak ../../build/cefsimple/Release/cef_200_percent.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -391,7 +391,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/cef_extensions.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/cef_extensions.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/cef_extensions.pak ../../build/cefsimple/Release/cef_extensions.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -400,7 +400,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/devtools_resources.pak E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/devtools_resources.pak
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/devtools_resources.pak ../../build/cefsimple/Release/devtools_resources.pak
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -409,7 +409,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/icudtl.dat E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/icudtl.dat
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_if_different ../../Resources/icudtl.dat ../../build/cefsimple/Release/icudtl.dat
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -418,7 +418,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/Resources/locales E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/locales
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy_directory ../../Resources/locales ../../build/cefsimple/Release/locales
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -428,27 +428,27 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\..\Release\libcef.lib;..\libcef_dll_wrapper\Release\libcef_dll_wrapper.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;..\..\Release\cef_sandbox.lib;dbghelp.lib;psapi.lib;version.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Release\libcef.lib;..\libcef_dll_wrapper\Release\libcef_dll_wrapper.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;..\..\Release\cef_sandbox.lib;dbghelp.lib;psapi.lib;version.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/cefsimple.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/Release/cefsimple.pdb</ProgramDataBaseFile>
+      <ImportLibrary>Release/cefsimple.lib</ImportLibrary>
+      <ProgramDataBaseFile>Release/cefsimple.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <Manifest>
-      <AdditionalManifestFiles>E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\cefsimple.exe.manifest;</AdditionalManifestFiles>
+      <AdditionalManifestFiles>cefsimple.exe.manifest;</AdditionalManifestFiles>
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/cefsimple/CMakeLists.txt</Message>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule ../CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32 -BE:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build --check-stamp-file E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -H../../ -B ../../build --check-stamp-file CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -456,12 +456,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/cefsimple/CMakeLists.txt;E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\CMakeLists.txt;E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\build\cefsimple\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CMakeLists.txt;CMakeLists.txt;CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\build\cefsimple\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/cefsimple/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule ../../cefsimple/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32 -BE:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build --check-stamp-file E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -H../.. -B../../build --check-stamp-file CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -469,16 +469,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/cefsimple/CMakeLists.txt;E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\CMakeLists.txt;E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\build\cefsimple\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CMakeLists.txt;CMakeLists.txt;CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_app.cc" />
-    <ClInclude Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_app.h" />
-    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_handler.cc" />
-    <ClInclude Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_handler.h" />
+    <ClCompile Include="..\..\cefsimple\simple_app.cc" />
+    <ClInclude Include="..\..\cefsimple\simple_app.h" />
+    <ClCompile Include="..\..\cefsimple\simple_handler.cc" />
+    <ClInclude Include="..\..\cefsimple\simple_handler.h" />
     <ClInclude Include="includes\rapidjson\allocators.h" />
     <ClInclude Include="includes\rapidjson\cursorstreamwrapper.h" />
     <ClInclude Include="includes\rapidjson\document.h" />
@@ -515,12 +515,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="includes\rapidjson\stream.h" />
     <ClInclude Include="includes\rapidjson\stringbuffer.h" />
     <ClInclude Include="includes\rapidjson\writer.h" />
-    <ResourceCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\cefsimple.rc" />
-    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\cefsimple_win.cc" />
-    <ClInclude Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\resource.h" />
-    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_handler_win.cc" />
-    <None Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\res\cefsimple.ico" />
-    <None Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\res\small.ico" />
+    <ResourceCompile Include="..\..\cefsimple\cefsimple.rc" />
+    <ClCompile Include="..\..\cefsimple\cefsimple_win.cc" />
+    <ClInclude Include="..\..\cefsimple\resource.h" />
+    <ClCompile Include="..\..\cefsimple\simple_handler_win.cc" />
+    <None Include="..\..\cefsimple\res\cefsimple.ico" />
+    <None Include="..\..\cefsimple\res\small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\build\CMakeFiles\5e9f60f4e313955bfe476d528b0a62cf\generate.stamp.rule">
+    <CustomBuild Include="..\build\CMakeFiles\5e9f60f4e313955bfe476d528b0a62cf\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>

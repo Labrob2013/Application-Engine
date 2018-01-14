@@ -1,8 +1,8 @@
-# Install script for directory: E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/libcef_dll
+# Install script for directory: ../../libcef_dll
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "e:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\build")
+  set(CMAKE_INSTALL_PREFIX "..\..\build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

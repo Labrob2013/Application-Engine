@@ -1,29 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_app.cc">
-      <Filter>cefsimple</Filter>
-    </ClCompile>
-    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_handler.cc">
-      <Filter>cefsimple</Filter>
-    </ClCompile>
-    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\cefsimple_win.cc">
-      <Filter>cefsimple</Filter>
-    </ClCompile>
-    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_handler_win.cc">
-      <Filter>cefsimple</Filter>
-    </ClCompile>
+    <ClCompile Include="..\cefsimple\simple_app.cc" />
+    <ClCompile Include="..\cefsimple\simple_handler.cc" />
+    <ClCompile Include="..\cefsimple\cefsimple_win.cc" />
+    <ClCompile Include="..\cefsimple\simple_handler_win.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_app.h">
-      <Filter>cefsimple</Filter>
-    </ClInclude>
-    <ClInclude Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_handler.h">
-      <Filter>cefsimple</Filter>
-    </ClInclude>
-    <ClInclude Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\resource.h">
-      <Filter>cefsimple</Filter>
-    </ClInclude>
     <ClInclude Include="includes\rapidjson\error\en.h">
       <Filter>cefsimple\Includes\rapidjson\error</Filter>
     </ClInclude>
@@ -132,22 +115,19 @@
     <ClInclude Include="includes\rapidjson\writer.h">
       <Filter>cefsimple\Includes\rapidjson</Filter>
     </ClInclude>
+    <ClInclude Include="..\cefsimple\simple_app.h" />
+    <ClInclude Include="..\cefsimple\simple_handler.h" />
+    <ClInclude Include="..\cefsimple\resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\CMakeLists.txt" />
+    <CustomBuild Include="..\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\res\cefsimple.ico">
-      <Filter>cefsimple\res</Filter>
-    </None>
-    <None Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\res\small.ico">
-      <Filter>cefsimple\res</Filter>
-    </None>
+    <None Include="..\cefsimple\res\cefsimple.ico" />
+    <None Include="..\cefsimple\res\small.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\cefsimple.rc">
-      <Filter>cefsimple</Filter>
-    </ResourceCompile>
+    <ResourceCompile Include="..\cefsimple\cefsimple.rc" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="cefsimple">

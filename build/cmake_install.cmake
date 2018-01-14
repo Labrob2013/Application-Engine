@@ -1,8 +1,8 @@
-# Install script for directory: E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32
+# Install script for directory: ../
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "e:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\build")
+  set(CMAKE_INSTALL_PREFIX "..\build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/libcef_dll_wrapper/cmake_install.cmake")
-  include("E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefclient/cmake_install.cmake")
-  include("E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/cefsimple/cmake_install.cmake")
+  include("../build/libcef_dll_wrapper/cmake_install.cmake")
+  include("../build/cefclient/cmake_install.cmake")
+  include("../build/cefsimple/cmake_install.cmake")
 
 endif()
 
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/libraries/cef_binary_3.2704.1415.g90c8571_windows32/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "../build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

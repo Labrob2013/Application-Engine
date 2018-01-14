@@ -1,0 +1,338 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine ���ᨨ 14.0.25123.0
+(C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
+
+���ઠ ���� 14.01.2018 21:59:34.
+�஥�� "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\3.10.1\CompilerIdC\CompilerIdC.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+PrepareForBuild:
+  �������� ��⠫��� "Debug\".
+  �������� ��⠫��� "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  �������� "Debug\CompilerIdC.tlog\unsuccessfulbuild", ⠪ ��� �뫮 ������ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\3.10.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ���� "Debug\CompilerIdC.tlog\unsuccessfulbuild" 㤠�����.
+  ���饭�� � "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+���ઠ �஥�� "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\3.10.1\CompilerIdC\CompilerIdC.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+
+���ઠ �ᯥ譮 �����襭�.
+    �।�०�����: 0
+    �訡��: 0
+
+����祭��� �६�: 00:00:02.28
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/3.10.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine ���ᨨ 14.0.25123.0
+(C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
+
+���ઠ ���� 14.01.2018 21:59:37.
+�஥�� "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\3.10.1\CompilerIdCXX\CompilerIdCXX.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+PrepareForBuild:
+  �������� ��⠫��� "Debug\".
+  �������� ��⠫��� "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  �������� "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", ⠪ ��� �뫮 ������ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\3.10.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ���� "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" 㤠�����.
+  ���饭�� � "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+���ઠ �஥�� "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\3.10.1\CompilerIdCXX\CompilerIdCXX.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+
+���ઠ �ᯥ譮 �����襭�.
+    �।�०�����: 0
+    �訡��: 0
+
+����祭��� �६�: 00:00:00.82
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/3.10.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0837c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25123.0
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  14.01.2018 21:59:39.
+Џа®ҐЄв "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_0837c.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_0837c.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_0837c.dir\Debug\cmTC_0837c.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_0837c.dir\Debug\cmTC_0837c.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0837c.dir\Debug\\" /Fd"cmTC_0837c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\testCCompiler.c
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.23918 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0837c.dir\Debug\\" /Fd"cmTC_0837c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_0837c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_0837c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_0837c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0837c.dir\Debug\testCCompiler.obj
+  cmTC_0837c.vcxproj -> E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_0837c.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_0837c.dir\Debug\cmTC_0837c.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_0837c.dir\Debug\cmTC_0837c.tlog\cmTC_0837c.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_0837c.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:01.40
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2ae3c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25123.0
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  14.01.2018 21:59:41.
+Џа®ҐЄв "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_2ae3c.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_2ae3c.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_2ae3c.dir\Debug\cmTC_2ae3c.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_2ae3c.dir\Debug\cmTC_2ae3c.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ae3c.dir\Debug\\" /Fd"cmTC_2ae3c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.23918 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ae3c.dir\Debug\\" /Fd"cmTC_2ae3c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_2ae3c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_2ae3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_2ae3c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2ae3c.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_2ae3c.vcxproj -> E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_2ae3c.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_2ae3c.dir\Debug\cmTC_2ae3c.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_2ae3c.dir\Debug\cmTC_2ae3c.tlog\cmTC_2ae3c.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_2ae3c.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:01.06
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7eb25.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25123.0
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  14.01.2018 21:59:42.
+Џа®ҐЄв "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_7eb25.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_7eb25.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_7eb25.dir\Debug\cmTC_7eb25.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_7eb25.dir\Debug\cmTC_7eb25.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7eb25.dir\Debug\\" /Fd"cmTC_7eb25.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.23918 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7eb25.dir\Debug\\" /Fd"cmTC_7eb25.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_7eb25.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_7eb25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_7eb25.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7eb25.dir\Debug\testCXXCompiler.obj
+  cmTC_7eb25.vcxproj -> E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_7eb25.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_7eb25.dir\Debug\cmTC_7eb25.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_7eb25.dir\Debug\cmTC_7eb25.tlog\cmTC_7eb25.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_7eb25.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:00.91
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_782ef.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25123.0
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  14.01.2018 21:59:43.
+Џа®ҐЄв "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_782ef.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_782ef.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_782ef.dir\Debug\cmTC_782ef.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_782ef.dir\Debug\cmTC_782ef.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_782ef.dir\Debug\\" /Fd"cmTC_782ef.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.23918 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_782ef.dir\Debug\\" /Fd"cmTC_782ef.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_782ef.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_782ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_782ef.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_782ef.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_782ef.vcxproj -> E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_782ef.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_782ef.dir\Debug\cmTC_782ef.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_782ef.dir\Debug\cmTC_782ef.tlog\cmTC_782ef.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_782ef.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:00.95
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e24fd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine ўҐабЁЁ 14.0.25123.0
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  14.01.2018 21:59:45.
+Џа®ҐЄв "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_e24fd.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_e24fd.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_e24fd.dir\Debug\cmTC_e24fd.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_e24fd.dir\Debug\cmTC_e24fd.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e24fd.dir\Debug\\" /Fd"cmTC_e24fd.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\feature_tests.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.00.23918 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e24fd.dir\Debug\\" /Fd"cmTC_e24fd.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_e24fd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_e24fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Maxim/projects/GitHub/c++/AppEngine/AppEngine/github/build/cefsimple/CMakeFiles/CMakeTmp/Debug/cmTC_e24fd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e24fd.dir\Debug\feature_tests.obj
+  cmTC_e24fd.vcxproj -> E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\Debug\cmTC_e24fd.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_e24fd.dir\Debug\cmTC_e24fd.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_e24fd.dir\Debug\cmTC_e24fd.tlog\cmTC_e24fd.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\github\build\cefsimple\CMakeFiles\CMakeTmp\cmTC_e24fd.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+‡ ва зҐ­­®Ґ ўаҐ¬п: 00:00:00.96
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

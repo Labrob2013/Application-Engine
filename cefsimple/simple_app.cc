@@ -129,11 +129,11 @@ void SimpleApp::OnContextInitialized() {
 		fcaption = document["caption"].GetString();
 		url = document["mainfile"].GetString();
 
-		if (document["mainfile_type"].GetString() == "local")
+		/*if (document["mainfile_type"].GetString() == "local")
 		{
 			// Надо прикруть тип файла: url и local(локальный)
 			//url = directory + document["mainfile"].GetString();
-		}
+		}*/
 	}
 
 	if (fcaption.length() == 0)
