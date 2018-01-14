@@ -3,6 +3,17 @@
 ###################
 cmake
 build/debug
+build/.vs
+build/Win32
+build/libcef_dll_wrapper/Debug
+build/libcef_dll_wrapper/libcef_dll_wrapper.dir
+build/CMakeFiles
+cefsimple/cefsimple.dir
+cefclient/cefclient.dir
+Release
+Debug
+build/cefclient/Debug
+build/cefsimple/Debug
 
 #######################
 ## РАСШИРЕНИЯ ФАЙЛОВ

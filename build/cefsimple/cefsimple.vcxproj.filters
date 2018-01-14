@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_app.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_handler.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\cefsimple_win.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_handler_win.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_app.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\simple_handler.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\resource.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\error\en.h">
+      <Filter>cefsimple\Includes\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\error\error.h">
+      <Filter>cefsimple\Includes\rapidjson\error</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\biginteger.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\diyfp.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\dtoa.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\ieee754.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\itoa.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\meta.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\pow10.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\regex.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\stack.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\strfunc.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\strtod.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\internal\swap.h">
+      <Filter>cefsimple\Includes\rapidjson\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\msinttypes\inttypes.h">
+      <Filter>cefsimple\Includes\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\msinttypes\stdint.h">
+      <Filter>cefsimple\Includes\rapidjson\msinttypes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\allocators.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\cursorstreamwrapper.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\document.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\encodedstream.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\encodings.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\filereadstream.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\filewritestream.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\fwd.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\istreamwrapper.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\memorybuffer.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\memorystream.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\ostreamwrapper.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\pointer.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\prettywriter.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\rapidjson.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\reader.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\schema.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\stream.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\stringbuffer.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\rapidjson\writer.h">
+      <Filter>cefsimple\Includes\rapidjson</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\res\cefsimple.ico">
+      <Filter>cefsimple\res</Filter>
+    </None>
+    <None Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\res\small.ico">
+      <Filter>cefsimple\res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\Maxim\projects\GitHub\c++\AppEngine\AppEngine\libraries\cef_binary_3.2704.1415.g90c8571_windows32\cefsimple\cefsimple.rc">
+      <Filter>cefsimple</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cefsimple">
+      <UniqueIdentifier>{F1ED455A-B488-30BD-9857-083FC4193600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cefsimple\res">
+      <UniqueIdentifier>{42E84D29-2195-3C97-BEB0-8B71698F927D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cefsimple\Includes">
+      <UniqueIdentifier>{317216ce-817a-494d-92b6-c73620702e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cefsimple\Includes\rapidjson">
+      <UniqueIdentifier>{fe3c0913-2986-4742-bb2e-6509ea6670d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cefsimple\Includes\rapidjson\error">
+      <UniqueIdentifier>{1c6361fa-3a3a-4508-99ed-4970192c4c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cefsimple\Includes\rapidjson\internal">
+      <UniqueIdentifier>{bb54dce4-6575-4a42-bd32-fce6eea121b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cefsimple\Includes\rapidjson\msinttypes">
+      <UniqueIdentifier>{15c23209-6d9d-4965-a123-6cd3ca2e1cce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

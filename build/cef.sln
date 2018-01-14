@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{2F2B2AFA-B00A-3818-87AD-76F8B2D33A91}"
+	ProjectSection(ProjectDependencies) = postProject
+		{190EAEC2-53CB-3932-9379-E03D006B6B2C} = {190EAEC2-53CB-3932-9379-E03D006B6B2C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cefsimple", "cefsimple\cefsimple.vcxproj", "{190EAEC2-53CB-3932-9379-E03D006B6B2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XML", "cefsimple\XML\XML.vcxproj", "{F83A04F7-EAA5-4D73-A1F5-A4D8ABEA6155}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F2B2AFA-B00A-3818-87AD-76F8B2D33A91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F2B2AFA-B00A-3818-87AD-76F8B2D33A91}.Release|Win32.ActiveCfg = Release|Win32
+		{190EAEC2-53CB-3932-9379-E03D006B6B2C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{190EAEC2-53CB-3932-9379-E03D006B6B2C}.Debug|Win32.Build.0 = Debug|Win32
+		{190EAEC2-53CB-3932-9379-E03D006B6B2C}.Release|Win32.ActiveCfg = Release|Win32
+		{190EAEC2-53CB-3932-9379-E03D006B6B2C}.Release|Win32.Build.0 = Release|Win32
+		{F83A04F7-EAA5-4D73-A1F5-A4D8ABEA6155}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F83A04F7-EAA5-4D73-A1F5-A4D8ABEA6155}.Debug|Win32.Build.0 = Debug|Win32
+		{F83A04F7-EAA5-4D73-A1F5-A4D8ABEA6155}.Release|Win32.ActiveCfg = Release|Win32
+		{F83A04F7-EAA5-4D73-A1F5-A4D8ABEA6155}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9063B399-15E8-3A31-8918-D1657A81FAD9}
+	EndGlobalSection
+EndGlobal
