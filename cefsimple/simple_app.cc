@@ -10,6 +10,7 @@
 #include <windows.h>
 #include <iostream> 
 #include <fstream> 
+#include <stdlib.h>
 
 #include "cefsimple/simple_handler.h"
 #include "include/cef_browser.h"
@@ -23,6 +24,7 @@
 #include "rapidjson/writer.h"
 #include "rapidjson/stringbuffer.h"
 #include "rapidjson/istreamwrapper.h"
+
 using namespace rapidjson;
 
 namespace {
@@ -115,7 +117,9 @@ void SimpleApp::OnContextInitialized() {
 	std::string def_none = "Application Engine"; // Дефолтное название
 
 	std::string url; // URL для браузера
-	std::string fcaption; // Caption + Default 
+	std::string w_caption; // Caption + Default 
+	std::string mainfile_type;
+	//std::string w_width, w_height;
 
 	// Проверяем файл на существование
 	if (FileExists("main.cfg") == TRUE)
@@ -126,21 +130,30 @@ void SimpleApp::OnContextInitialized() {
 		Document document;
 		document.ParseStream(isw);
 
-		fcaption = document["caption"].GetString();
+		w_caption = document["caption"].GetString();
 		url = document["mainfile"].GetString();
 
-		/*if (document["mainfile_type"].GetString() == "local")
+		mainfile_type = document["mainfile_type"].GetString();
+
+		//w_width = document["window_width"].GetString();
+		//w_height = document["window_height"].GetString();
+
+		if (mainfile_type == "local")
 		{
-			// Надо прикруть тип файла: url и local(локальный)
-			//url = directory + document["mainfile"].GetString();
-		}*/
+			char fpath[500];
+			_fullpath(fpath, url.c_str(), 500);
+			url = "file://" + std::string(fpath);
+		}
+
 	}
 
-	if (fcaption.length() == 0)
-		fcaption = def_none;
+	if (w_caption.length() == 0)
+		w_caption = def_none;
 
-	if (url.length() == 0)
-		url = "http://yandex.ru/";
+	if (url.length() == 0) url = "http://yandex.ru/";
+
+	//if (w_width.length() == 0) w_width = 10;
+	//if (w_height.length() == 0) w_height = 10;
 
 	// SimpleHandler implements browser-level callbacks.
 	CefRefPtr<SimpleHandler> handler(new SimpleHandler(use_views));
@@ -164,7 +177,11 @@ void SimpleApp::OnContextInitialized() {
 		#if defined(OS_WIN)
 			// On Windows we need to specify certain flags that will be passed to
 			// CreateWindowEx().
-			window_info.SetAsPopup(NULL, fcaption);
+			window_info.SetAsPopup(NULL, w_caption);
+			/*
+			window_info.width = int(w_width.c_str());
+			window_info.height = int(w_height.c_str());
+			*/
 		#endif
 
 		// Создание браузера с параметрами.
